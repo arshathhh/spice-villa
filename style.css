@@ -1,0 +1,176 @@
+*{
+     margin:0;
+     padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+   
+   
+}
+body{
+     background-color:#111;
+      justify-content:center;
+      align-items:center;
+     color: whitesmoke;
+}
+
+.navbar ul{
+    list-style: none;
+    background-color: whitesmoke;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    right: 10px;
+    
+   
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar li{
+    float: right;
+}
+.navbar h2{
+    float: left;
+    padding: 10px;
+    color: whitesmoke;
+    position: relative;
+    left: 8px;
+    
+   
+}
+
+
+
+/*this is headinng h2 tags*/
+
+
+
+
+.heading{
+    position: relative;
+    top: 200px;
+    font-size: 55px;
+    text-align: center;
+}
+.heading h1{
+    position: relative;
+    font-size: 80px;    
+
+}
+.heading p{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    padding: 5px;
+    right: 30px;
+    top: 10px;
+}
+.heading span{
+    position: relative;
+    right: 30px;
+    top: 4px;
+}
+
+
+
+/*this is booking card*/
+
+  
+ .booking-form{
+      width:90%;
+      max-width:1200px;
+      background:rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      border:1px solid rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+      box-shadow:0 0 25px rgba(0,0,0,0.5);
+    }
+
+    .input-box{
+      flex:1 1 180px;
+    }
+
+    .input-box h4{
+      color:white;
+      font-size:13px;
+      margin-bottom:10px;
+      letter-spacing:1px;
+    }
+
+    .field{
+      background:rgba(255,255,255,0.08);
+      border:1px solid rgba(255,255,255,0.1);
+      height:60px;
+      border-radius:15px;
+      display:flex;
+      align-items:center;
+      padding:0 18px;
+      gap:12px;
+      transition:0.3s;
+    }
+
+    .field:hover{
+      border-color:#ffffff50;
+      transform:translateY(-3px);
+    }
+
+    .field i{
+      color:white;
+      font-size:18px;
+    }
+
+    .field input,
+    .field select{
+      width:100%;
+      background:none;
+      border:none;
+      outline:none;
+      color:white;
+      font-size:15px;
+    }
+
+    .field input::placeholder{
+      color:#ddd;
+    }
+
+    select{
+      appearance:none;
+      cursor:pointer;
+    }
+
+    .book-btn{
+      width:100%;
+      margin-top:25px;
+      height:60px;
+      border:none;
+      border-radius:15px;
+      background:white;
+      color:black;
+      font-size:18px;
+      font-weight:600;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .book-btn:hover{
+      background:#dcdcdc;
+      transform:scale(1.02);
+    }
+    .booking-form{
+       position: relative;
+        top: 300px;
+        left: 140px;
+    }
