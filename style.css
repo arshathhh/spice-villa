@@ -4,8 +4,9 @@
     box-sizing:border-box;
     font-family: 'Poppins', sans-serif;
    
-   
 }
+
+ 
 body{
      background-color:#111;
       justify-content:center;
@@ -29,12 +30,18 @@ body{
     font-size: large;
     position: relative;
     right: 10px;
+    color: whitesmoke;
+    display:flex;
+    transition:0.3s;
+}
     
    
-}
+
 .navbar a:hover{
-    color: white;
+      transform:translateY(-3px);
+
 }
+
 .navbar li{
     float: right;
 }
@@ -57,7 +64,7 @@ body{
 
 .heading{
     position: relative;
-    top: 200px;
+    top: 170px;
     font-size: 55px;
     text-align: center;
 }
@@ -85,7 +92,7 @@ body{
 /*this is booking card*/
 
   
- .booking-form{
+ #booking-form{
       width:90%;
       max-width:1200px;
       background:rgba(255,255,255,0.05);
@@ -97,14 +104,17 @@ body{
       gap:20px;
       flex-wrap:wrap;
       box-shadow:0 0 25px rgba(0,0,0,0.5);
+      transition:0.3s;
     }
 
     .input-box{
       flex:1 1 180px;
+      color: #111;
     }
 
     .input-box h4{
-      color:white;
+      
+      color:whitesmoke;
       font-size:13px;
       margin-bottom:10px;
       letter-spacing:1px;
@@ -120,6 +130,7 @@ body{
       padding:0 18px;
       gap:12px;
       transition:0.3s;
+      
     }
 
     .field:hover{
@@ -128,7 +139,8 @@ body{
     }
 
     .field i{
-      color:white;
+      
+      color:#f5f2f2;
       font-size:18px;
     }
 
@@ -138,7 +150,7 @@ body{
       background:none;
       border:none;
       outline:none;
-      color:white;
+      color: grey;
       font-size:15px;
     }
 
@@ -158,7 +170,7 @@ body{
       border:none;
       border-radius:15px;
       background:white;
-      color:black;
+      color:#111;
       font-size:18px;
       font-weight:600;
       cursor:pointer;
@@ -169,8 +181,155 @@ body{
       background:#dcdcdc;
       transform:scale(1.02);
     }
-    .booking-form{
+    #booking-form{
        position: relative;
         top: 300px;
         left: 140px;
     }
+
+
+/* cards and h2 h3 tags */
+.fonts{
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 430px;
+}
+.fonts h3{
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  right: 30px;
+  color: wheat;
+  bottom: 60px;
+}
+.fonts h1{
+  font-size: 59px;
+  position: relative;
+  bottom: 50px;
+  
+}
+.fonts p {
+   font-size: 30px;
+   position: relative;
+   bottom: 30px;
+   right: 5px;
+}
+
+/*card img and tag*/
+
+
+.card1 img{
+   height: 400px;
+   
+   position: relative;
+   top: 500px;
+   left: 20px;
+   border-radius: 20px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   background: rgba(202, 105, 49, 0.823);
+   backdrop-filter: blur(10px);
+    animation: float 4s ease-in-out infinite;
+     overflow: hidden;
+      transition:0.4s ease;
+     
+
+  
+} 
+
+.card1 img:hover{
+   
+}
+/*transform:scale(1.1);
+
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-12px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+  }*/
+
+#btn1{
+   background:transparent;
+    color:#F5DEB3;
+    border:2px solid #F5DEB3;
+    padding:12px 24px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:all 0.4s ease;
+    position: relative;
+    top: 470px;
+     right: 250px;
+     scroll-behavior: smooth;
+}
+
+
+#btn1:hover{
+   background:#F5DEB3;
+    color:#111;
+    transform:scale(1.05);
+    box-shadow:0 0 15px rgba(245,222,179,0.6);
+}
+
+    
+.card2 img{
+  height: 400px;
+  position: relative;
+   top: 80px;
+   left: 490px;
+   border-radius: 20px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   background: rgba(202, 105, 49, 0.823);
+   backdrop-filter: blur(10px);
+     transition: 0.4s ease;
+    animation: float 4s ease-in-out infinite;
+     overflow: hidden;
+}
+
+#btn2{
+   background:transparent;
+    color:#111;
+    border:2px solid #111;
+    padding:12px 24px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:all 0.4s ease;
+    position: relative;
+    top: 54px;
+    left: 240px;
+
+}
+
+#btn2:hover{
+   background:#111;
+    color:wheat;
+    transform:scale(1.05);
+    box-shadow:0 0 15px rgba(245,222,179,0.6);
+}
+
+
+.card3 img{
+   height: 400px;
+
+  position: relative;
+  bottom: 340px;
+   left: 850px;
+   border-radius: 20px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   background: rgba(202, 105, 49, 0.823);
+   backdrop-filter: blur(10px);
+     transition: 0.4s ease;
+    animation: float 4s ease-in-out infinite;
+     overflow: hidden;
+}
