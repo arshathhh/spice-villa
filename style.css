@@ -39,6 +39,7 @@ body{
 
 .navbar a:hover{
       transform:translateY(-3px);
+       color:#ff8c42
 
 }
 
@@ -86,6 +87,14 @@ body{
     right: 30px;
     top: 4px;
 }
+
+.heading h1:hover{
+  color: #ff8c42;
+}
+.heading h2:hover{
+  color: #ff8c42;
+}
+
 
 
 
@@ -184,7 +193,7 @@ body{
     #booking-form{
        position: relative;
         top: 300px;
-        left: 140px;
+        left: 80px;
     }
 
 
@@ -194,20 +203,25 @@ body{
   justify-content: center;
   position: relative;
   top: 430px;
+  
 }
 .fonts h3{
   font-size: 25px;
   text-align: center;
   position: relative;
   right: 30px;
-  color: wheat;
+  color: whitesmoke;
   bottom: 60px;
 }
 .fonts h1{
   font-size: 59px;
   position: relative;
   bottom: 50px;
+  cursor: pointer;
   
+}
+.fonts h1:hover{
+  color: #ff8c42;
 }
 .fonts p {
    font-size: 30px;
@@ -236,25 +250,6 @@ body{
 
   
 } 
-
-.card1 img:hover{
-   
-}
-/*transform:scale(1.1);
-
-@keyframes float{
-    0%{
-        transform: translateY(0px);
-    }
-
-    50%{
-        transform: translateY(-12px);
-    }
-
-    100%{
-        transform: translateY(0px);
-    }
-  }*/
 
 #btn1{
    background:transparent;
@@ -285,7 +280,7 @@ body{
   height: 400px;
   position: relative;
    top: 80px;
-   left: 490px;
+   left: 990px;
    border-radius: 20px;
    border: 1px solid rgba(255, 255, 255, 0.2);
    background: rgba(202, 105, 49, 0.823);
@@ -297,8 +292,8 @@ body{
 
 #btn2{
    background:transparent;
-    color:#111;
-    border:2px solid #111;
+    color:#F5DEB3;
+    border:2px solid #F5DEB3;
     padding:12px 24px;
     border-radius:8px;
     font-size:16px;
@@ -307,24 +302,24 @@ body{
     transition:all 0.4s ease;
     position: relative;
     top: 54px;
-    left: 240px;
+    left: 750px;
 
 }
 
 #btn2:hover{
-   background:#111;
-    color:wheat;
+     background:#F5DEB3;
+    color:#111;
     transform:scale(1.05);
     box-shadow:0 0 15px rgba(245,222,179,0.6);
 }
 
 
 .card3 img{
-   height: 400px;
-
+   height: 350px;
+  width: 500px;
   position: relative;
-  bottom: 340px;
-   left: 850px;
+  bottom: 320px;
+   left: 450px;
    border-radius: 20px;
    border: 1px solid rgba(255, 255, 255, 0.2);
    background: rgba(202, 105, 49, 0.823);
@@ -333,3 +328,88 @@ body{
     animation: float 4s ease-in-out infinite;
      overflow: hidden;
 }
+
+#btn3{
+  background:transparent;
+    color:#F5DEB3;
+    border:2px solid #F5DEB3;
+    padding:12px 24px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:all 0.4s ease;
+    position: relative;
+    bottom: 355px;
+    left: 130px;
+     scroll-behavior: smooth;
+}
+
+
+#btn3:hover{
+     background:#F5DEB3;
+    color:#111;
+    transform:scale(1.05);
+    box-shadow:0 0 15px rgba(245,222,179,0.6);
+}
+
+.line1{
+  width:80%;
+    margin:50px auto;
+    border:0;
+    height:1px;
+    background:linear-gradient(to right, transparent, #ff8c42, transparent);
+    position: relative;
+    bottom: 210px;
+    right: 20px;
+}                                
+
+  
+.one img  {
+  height:500px;
+  border-radius: 20px;
+  position: relative;
+  left: 100px;
+  bottom: 200px;
+    
+    transition:0.5s ease;
+
+}
+
+.one img:hover{
+   transform:scale(1.10);
+}
+.one p{
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  bottom: 600px;
+  left: 200px;
+}
+.one button{
+   background:transparent;
+    color:#F5DEB3;
+    border:2px solid #F5DEB3;
+    padding:12px 24px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:all 0.4s ease;
+    position: relative;
+    bottom: 400px;
+    left: 500px;
+     scroll-behavior: smooth;
+
+}
+
+
+.one button:hover{
+   background:#F5DEB3;
+    color:#111;
+    transform:scale(1.05);
+    box-shadow:0 0 15px rgba(245,222,179,0.6);
+  
+}
+
