@@ -413,3 +413,50 @@ body{
   
 }
 
+.two img{
+  height: 500px;  
+  border-radius: 20px;
+  position: relative;
+  left: 950px;
+  bottom: 160px;
+   transition:0.5s ease;
+
+}
+.two img:hover{
+    transform:scale(1.10);
+
+}
+.two p{
+   color: whitesmoke;
+  font-size: 28px;
+  text-align: center;
+  position: relative;
+  bottom: 500px;
+  right: 230px;
+}
+.two button {
+  background:transparent;
+    color:#F5DEB3;
+    border:2px solid #F5DEB3;
+    padding:12px 24px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:all 0.4s ease;
+    position: relative;
+    bottom: 300px;
+    left: 20px;
+     scroll-behavior: smooth;
+}
+.two button:hover{
+    background:#F5DEB3;
+    color:#111;
+    transform:scale(1.05);
+    box-shadow:0 0 15px rgba(245,222,179,0.6);
+}
+
+.totalcard{
+  position: relative;
+  bottom: 100px;
+}
